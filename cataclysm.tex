@@ -306,12 +306,35 @@ model under the template.  Other hits are allocated to the closest
 model in sequence as usual, which may mean that multiple units are
 hurt as models are removed.
 
-Regardless of the outcome, after resolving wounds the units in combat
-are assumed to be still in combat unless all the models of an alliance
-have been eliminated, even if models were removed such that the units
-are no longer in contact.  Consolidation moves are not made if an
-entire alliance is eliminated.  Units shot at in combat do not take
-Morale Checks at the end of shooting, regardless of their casualties.
+After resolving wounds, the units in combat are assumed to be still
+locked in that combat unless all the models of an alliance have been
+eliminated, even if the units are no longer in physical contact due to
+removed casualties.  Consolidation moves are not made if an alliance
+is eliminated.  Units shot at in combat do not take morale checks at
+the end of shooting.
+
+\vfill
+\noindent%
+\begin{minipage}[h]{1.0\linewidth}\centering\small\it%
+\fbox{\includegraphics[width=(1.0\linewidth)]{pics/tau-line-cropped}}\\
+Firing solution on coordinates alpha alpha nine six four!
+\end{minipage}
+
+\end{columns}
+
+\vfill
+\begin{story}{0.35in}{The Greater Good}
+  Shas'ui Ke'ssai crouched low behind the crude rubble barricade.  His
+  hooves trembled with the clamorous approach of the humans' ugly,
+  stinking, smoking vehicles.  In that moment, he realized he hated
+  them.  He hated them for their violence, and he hated them for what
+  they'd done to his world.  But most of all, he hated them for
+  teaching him to hate.
+\end{story}
+
+%%------------------------------------------------------
+\pagebreak
+\begin{columns}
 
 
 \missionheading{Assault Phase}
@@ -328,18 +351,36 @@ from multiple other alliances.  Combats are resolved in the assault
 phase of each alliance with engaged units, making combats with more
 than two alliances particularly deadly!
 
+\missionheading{Apocalyptic Reserves}
+
+In apocalyptic games, units placed into Strategic Reserve arrive
+according to the following schedule rather than rolling each turn as
+per the standard rules:
+
+\smallskip \centerline{\begin{tabular}{cp{2.5in}}
+    Turn 1 & Zooming flyers \& deep striking units\\
+    Turn 2 & Any unit capable of moving~12'' or more in a single
+             movement phase, e.g., beasts and vehicles, including
+             transports with embarked units\\
+    Turn 3 & All other units\\
+\end{tabular}}
+
+\smallskip%
+Once per game any unit, wargear, fortification, or other special rule
+that can manipulate reserve rolls may be used to shift the scheduled
+arrival of a unit by one turn.  This may be applied to friendly or
+enemy units and may shift them up or down as appropriate to the
+original ability's rules and modifiers.  No unit may be affected in
+such a way more than once per game, and no unit may be delayed past
+Turn~3.
+
+For example, an Astra Militarum Fleet Officer could delay the arrival
+of an opposing Heldrake until Turn~2.  That Fleet Officer cannot then
+delay or advance another unit for the remainder of the game.  A second
+Fleet Officer or another unit also could not delay that same Heldrake
+again to Turn~3.
+
 \end{columns}
-
-\vfill
-\begin{story}{0.35in}{The Greater Good}
-  Shas'ui Ke'ssai crouched low behind the crude rubble barricade.  His
-  hooves trembled with the clamorous approach of the humans' ugly,
-  stinking, smoking vehicles.  In that moment, he realized he hated
-  them.  He hated them for their violence, and he hated them for what
-  they'd done to his world.  But most of all, he hated them for
-  teaching him to hate.
-\end{story}
-
 
 %%------------------------------------------------------
 \missiontitle{Cataclysm Mission: Hold and Repel}
@@ -366,7 +407,8 @@ than two alliances particularly deadly!
   \missionheading{Mission Specific Rules}
 
   \vspace*{-9pt}%
-  \missionsubheading{Reserves.} As on page~135 of the main rulebook.
+  \missionsubheading{Reserves.} As on page~135 of the main rulebook
+  and modified by Cataclysm rules for apocalyptic matches.
 
   \missionsubheading{Nightfighting.} On a~D6 of~4+ before the first
   alliance begins its first turn, all units have Stealth for Turn~1.
@@ -421,7 +463,6 @@ than two alliances particularly deadly!
 
 \end{columns}
 
-\bigskip
 \divider
 
 \begin{columns}
@@ -495,13 +536,6 @@ tools: Emacs, \LaTeX, Inkscape, and GIMP.
 %%------------------------------------------------------
 \pagebreak
 \missionheading{Deployment Configurations}%
-
-\vfill
-\noindent%
-\begin{minipage}[h]{1.0\linewidth}\centering\small\it%
-\fbox{\includegraphics[width=(1.0\linewidth)]{pics/tau-line-cropped}}\\
-Firing solution on coordinates alpha alpha nine six four!
-\end{minipage}
 
 %%{\parfillskip0pt\relax\par}
 
